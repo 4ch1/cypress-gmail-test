@@ -1,0 +1,17 @@
+{
+  "baseUrl":  "https://accounts.google.com",
+  "chromeWebSecurity": false,
+  "supportFile": "cypress/support/index.ts",
+  "pluginsFile": "cypress/plugins/index.ts",
+  "env": {
+    "username": "testCypressPiper@gmail.com",
+    "password":"Walker12345!",
+    "authURL": "https://accounts.google.com/o/oauth2/auth",
+    "accessTokenURL" : "https://accounts.google.com/o/oauth2/token",
+    "clientID": "152502474539-1thtbkg0bpo3kmmimn826rtgls0rl3iu.apps.googleusercontent.com",
+    "clientSecret": "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",
+    "scope": "https://www.googleapis.com/auth/gmail.modify",
+    "gmailAPI": "https://www.googleapis.com/gmail/v1/users/testcypresspiper@gmail.com",
+    "bearerToken": "ya29.A0ARrdaM_LW9AKyFBXNuAA_MND-dAFU11AXPGvdoc5YCc6KjniIcXacdID66L5uzJA5I-AKiqvNLD-Nc64Uw7Z9ZfncpiQq-3dVWuuTw8Usi7aDYKnQMh_SmCQPbp6KKTykxIpsvS1n9OR1PzDUR12dqz-02Nz1A"
+  }
+  }
